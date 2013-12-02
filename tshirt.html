@@ -1,0 +1,78 @@
+		<div id="content">
+			<div class="shirt">
+				<img id="tshirt" src="tshirts/tshirtWhite.png" align="middle" style="position: relative; top: 0; left: 0;">
+				<img class="logoShirt" id="logoShirt" src="logos/logo1.png" width="70px" height="70px"/>
+				<div class="textShirt" id="textShirt"/></div>
+			</div>
+			<div class="col">
+				<h3>Logo</h3>
+				<img class="logos" id="1" onClick="logos(id)" src="logos/logo1.png">
+				<img class="logos" id="2" onClick="logos(id)" src="logos/logo2.png">
+				<img class="logos" id="3" onClick="logos(id)" src="logos/logo3.png">
+				<img class="logos" id="4" onClick="logos(id)" src="logos/logo4.png">
+			</div>
+			<div class="col">
+				<h3>Colours</h3>
+				<div class="colourButton" id="Black" onClick="colours(id)" style="background-color:black;"></div>
+				<div class="colourButton" id="Brown" onClick="colours(id)" style="background-color:brown;"></div>
+				<div class="colourButton" id="Blue" onClick="colours(id)" style="background-color:blue;"></div>
+				<div class="colourButton" id="Red" onClick="colours(id)" style="background-color:red;"></div>
+				<div class="colourButton" id="Green" onClick="colours(id)" style="background-color:green;"></div>
+				<div class="colourButton" id="Yellow" onClick="colours(id)" style="background-color:yellow;"></div>
+				<div class="colourButton" id="White" onClick="colours(id)" style="background-color:white;"></div>
+			</div>
+			<div class="col">
+			<h3>Text</h3>
+				<form>
+					Text<input onKeyDown="changeThis()" type="text" id="textField" name="textField">
+				</form>
+				Select a font size:  
+				<select onchange="fontSize(this.value)">  
+					<option value="12">12</option>  
+					<option value="14">14</option>  
+					<option value="16">16</option>  
+					<option value="18">18</option>  
+					<option value="20">20</option>  
+					<option value="24">24</option>  
+					<option value="30">30</option>  
+				</select>
+				<br>
+				Select a font style:  
+				<select onchange="fontStyle(this.value)">  
+					<option value="Verdana">Verdana</option>  
+					<option value="Times New Roman">Times New Roman</option>  
+					<option value="Algerian">Algerian</option>  
+					<option value="Broadway">Broadway</option>  
+					<option value="Cooper Black">Cooper Black</option>  
+					<option value="Papyrus">Papyrus</option>  
+					<option value="Showcard Gothic">Showcard Gothic</option>  
+				</select>
+				<br>
+				<div class="colourButton" id="Black" onClick="fontColour(id)" style="background-color:black;"></div>
+				<div class="colourButton" id="Brown" onClick="fontColour(id)" style="background-color:brown;"></div>
+				<div class="colourButton" id="Blue" onClick="fontColour(id)" style="background-color:blue;"></div>
+				<div class="colourButton" id="Red" onClick="fontColour(id)" style="background-color:red;"></div>
+				<div class="colourButton" id="Green" onClick="fontColour(id)" style="background-color:green;"></div>
+				<div class="colourButton" id="Yellow" onClick="fontColour(id)" style="background-color:yellow;"></div>
+				<div class="colourButton" id="White" onClick="fontColour(id)" style="background-color:white;"></div>
+			</div>
+			
+			
+		</div>
+		
+		<div id="menu">
+				<a class="navBar" href=".html"><b>Customise</b></a>
+				<img src="arrow.png" align="middle" width="120" height="120">
+				<a class="navBar" href=".html"><b>Place an Order</b></a>
+				<img src="arrow.png" align="middle" width="120" height="120">
+				<a class="navBar" href=".html"><b>Confirmation</b></a>
+			</div>
+			
+		<div class="clear"></div>
+		<div id="footer">
+		</div>
+	</div>
+	
+
+</body>
+</html>
